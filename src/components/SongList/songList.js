@@ -2,9 +2,6 @@ import React from "react";
 import "./songList.css";
 
 const musicList = () => {
-    const Play = () => {
-        console.log("Play");
-    };
 
     return (
         <div  className="Lists">
