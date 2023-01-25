@@ -31,15 +31,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="Mlist">
-        <div className="container">
-            <h1 className="Title">Hamari Saanson</h1>
-            <h6>Artist: Arijit Singh</h6>
-            <h6>Album: Baar Baar Dekho</h6>
-          <h6>Released: 2016</h6> 
-          <ReactAudioPlayer src={song1} Play controls muted />
-        </div>
-          <div className="container">
+      <div className="mlist">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <div className="container">
+              <h1 className="Title">Hamari Saanson</h1>
+              <h6>Artist: Arijit Singh</h6>
+              <h6>Album: Baar Baar Dekho</h6>
+              <h6>Released: 2016</h6> 
+              <ReactAudioPlayer className="Slide" src={song1} Play controls muted />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="container">
             <h1 className="Title">Kala Chasma</h1>
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6>
@@ -48,24 +53,40 @@ class App extends Component {
           <ReactAudioPlayer src={song2} Play controls muted />
           </div>
         </div>
+          </div>
+          <div class="carousel-item">
+            <div className="container">
+              <h1 className="Title">Mann Bharya</h1>
+              <h6>Artist: Arijit Singh</h6>
+              <h6>Album: Baar Baar Dekho</h6>
+              <h6>Released: 2016</h6> 
+              <div>
+              <ReactAudioPlayer src={song3} Play controls muted />
+              </div>
+            </div>
+          </div>
+        <div class="carousel-item">
           <div className="container">
-            <h1 className="Title">Mann Bharya</h1>
+            <h1 className="Title">Ashiqui Aa Gayi</h1>
             <h6>Artist: Arijit Singh</h6>
-            <h6>Album: Baar Baar Dekho</h6>
-            <h6>Released: 2016</h6> 
-          <div>
-          <ReactAudioPlayer src={song3} Play controls muted />
+            <h6>Album: Baar Baar Dekho</h6> 
+            <h6>Released: 2016</h6>
+            <div>
+            <ReactAudioPlayer src={song4} Play controls muted />
+            </div>
           </div>
-        </div>
-          <div className="container">
-          <h1 className="Title">Ashiqui Aa Gayi</h1>
-          <h6>Artist: Arijit Singh</h6>
-          <h6>Album: Baar Baar Dekho</h6> 
-          <h6>Released: 2016</h6>
-          <div>
-          <ReactAudioPlayer src={song4} Play controls muted />
           </div>
-        </div>
+          </div>      
+          
+        <a href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
       </div>
     );
   }

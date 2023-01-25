@@ -10,7 +10,7 @@ function App() {
         <Home />
         <List />
         <div className='App'>
-        <Music />
+          <Music />
         </div>
       </div>
   );
