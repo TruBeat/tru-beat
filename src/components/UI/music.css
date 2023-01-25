@@ -1,26 +1,36 @@
-.container {
+.Container {
     background-color: black;  
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10%;
-    margin-top: 10px;
-    border-radius: 30px;
+    margin-top: 20%;
+    border-radius: 10%;
     border-color: yellow;
     border-width: 1px;
     border-style: dashed;
 }
 
+.Container-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    margin-top: 3%;
+    border-radius: 10%;
+    border-width: 1px;
+    padding: 12%;
+}
+
 .Button {
     background-color: #4CAF50; /* Green */
     border: none;
-    color: white;
-    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 8px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 50%;
 }
 
 .button1 {
@@ -28,11 +38,11 @@
   color: black; 
   border: 2px solid #4CAF50;
 }
+
 .button1:hover {
   background-color: #4CAF50;
   color: white;
 }
-
 
 .Status {
     background-color: goldenrod; /* Green */
@@ -88,11 +98,27 @@
 }
 
 .Mlist{
-  background-color: yellow;
+  background-color: red;
+  padding: 50%  50%;
 }
 
 .Title{
   font-size: large;
+}
+
+.left{
+  justify-content: left;
+  align-items: left;
+  margin-right: 85%;
+}
+
+.right{
+  justify-content: right;
+  align-items: right;
+}
+
+.Crousel{
+  padding: 15px;
 }
 
 

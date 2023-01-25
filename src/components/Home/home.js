@@ -16,7 +16,7 @@ const home = () => {
             </div>
 
             <div className="home-content2">
-                <h1>My Music</h1>
+                <h1 className="MusicStyle">My Music</h1>
                 <button className="Button">My Playlists</button>
                 <button className="Button"> My Albums</button>
                 <button className="Button">My Artists</button>

@@ -2,13 +2,17 @@ import React from "react";
 import "./songList.css";
 
 const musicList = () => {
+    const Play = () => {
+        console.log("Play");
+    };
+
     return (
-        <div className="Lists">
-            <h1 className="songDisplay"> 1. Ashiqui Aa Gayi </h1>
-            <h1 className="songDisplay"> 2. Bachpan Ka Pyar </h1>
-            <h1 className="songDisplay"> 3. Baris Ki Jaaye </h1>
-            <h1 className="songDisplay"> 4. Baaris </h1>
-            <h1 className="songDisplay"> 5. Humnava </h1>
+        <div  className="Lists">
+            <div className="songDisplay"> Ashiqui Aa Gayi </div>
+            <div className="songDisplay"> Bachpan Ka Pyar </div>
+            <div className="songDisplay"> Baris Ki Jaaye </div>
+            <div className="songDisplay"> Baaris </div>
+            <div className="songDisplay"> Humnava </div>
         </div>
     );
 };

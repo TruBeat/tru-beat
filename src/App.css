@@ -1,8 +1,8 @@
 .App {
   background-color: #282c34;
   color: white;
-  width: 300px;
-  margin-top: -50%;
+  width: 250px;
+  margin-top: -30%;
   margin-right: 10px;
   margin-left: 75%;
   border: 3px solid #73AD21;
@@ -10,7 +10,15 @@
   border-radius: 10px;
 }
 
-
+.ListHold{
+  color: white;
+  width: 300px;
+  margin-top: -53%;
+  margin-right: 10px;
+  margin-left: 75%;
+  padding: 10px;
+  height: 700px;
+}
 
 
 

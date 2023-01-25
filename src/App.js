@@ -7,11 +7,11 @@ import Home from './components/Home/home';
 function App() {
   return (
       <div>
-        <Home />
+      <Home />
+      <div className='ListHold'>
         <List />
-        <div className='App'>
-          <Music />
-        </div>
+        <Music />
+      </div>
       </div>
   );
 }

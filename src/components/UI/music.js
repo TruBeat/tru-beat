@@ -31,20 +31,33 @@ class App extends Component {
 
   render() {
     return (
-      <div className="mlist">
+      <div className="Container">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+                
+        <div className="Crousel">
+          <a className="left" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+            
+          <a className="right" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+          
+          <div class="carousel-inner">
           <div class="carousel-item active" >
-            <div className="container">
+            <div className="Container-inside">
               <h1 className="Title">Hamari Saanson</h1>
               <h6>Artist: Arijit Singh</h6>
               <h6>Album: Baar Baar Dekho</h6>
               <h6>Released: 2016</h6> 
-              <ReactAudioPlayer className="Slide" src={song1} Play controls muted />
+              <ReactAudioPlayer src={song1} Play controls muted />
             </div>
           </div>
           <div class="carousel-item">
-            <div className="container">
+            <div className="Container-inside">
             <h1 className="Title">Kala Chasma</h1>
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6>
@@ -55,7 +68,7 @@ class App extends Component {
         </div>
           </div>
           <div class="carousel-item">
-            <div className="container">
+            <div className="Container-inside">
               <h1 className="Title">Mann Bharya</h1>
               <h6>Artist: Arijit Singh</h6>
               <h6>Album: Baar Baar Dekho</h6>
@@ -66,7 +79,7 @@ class App extends Component {
             </div>
           </div>
         <div class="carousel-item">
-          <div className="container">
+          <div className="Container-inside">
             <h1 className="Title">Ashiqui Aa Gayi</h1>
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6> 
@@ -77,15 +90,7 @@ class App extends Component {
           </div>
           </div>
           </div>      
-          
-        <a href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
       </div>
       </div>
     );

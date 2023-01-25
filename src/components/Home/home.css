@@ -3,7 +3,8 @@
     background-color: navajowhite;
     width: 20%;
     padding: 10px;
-    margin: 1%;
+    border-radius: 10px;
+    height: 750px;
 }
 
 .app-name{
@@ -21,7 +22,7 @@
 }
 
 .home-content1{
-    margin-top: 8%;
+    margin-top: 20%;
     padding: 1%;
     background-color: wheat;
     display: flex;
@@ -39,13 +40,33 @@
 }
 
 .Button{
-    background-color: #4CAF50; /* Green */
+    background-color: blueviolet; /* Green */
     border: none;
     color: white;
     padding: 10px 12px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 4px 4px 4px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10px;
+}
+
+.Button:hover {
+    background-color: #3e8e41;
+}
+
+.MusicStyle{
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10%;
+    border-radius: 10px;
+    border-color: yellow;
+    border-width: 1px;
+    border-style: dashed;
+    font-style: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    float: inline-end;
 }
