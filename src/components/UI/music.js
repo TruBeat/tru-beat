@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./music.css";
 import song from "../audio/2.mp3";
-import { Play, Pause,  SpeakerHigh, BellSimpleRinging} from "phosphor-react";
+//import { Play, Pause,  SpeakerHigh, BellSimpleRinging} from "phosphor-react";
+import ReactAudioPlayer from 'react-audio-player';
 
 class App extends Component {
   state = {
@@ -28,19 +29,9 @@ class App extends Component {
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6>
             <h6>Released: 2016</h6> 
-        <button className="Button button1" onClick={this.playPause}>
-                { !this.state.isPlaying ? <Play size={32} /> : <Pause size={32} /> }  
-        </button>
-        
-        <p className="Status">
-          { this.state.isPlaying ? "Playing..." : "Paused" }
-        </p>
-        <div class="slidecontainer">        
-            <SpeakerHigh size={32}/>
-                <input type="range" min="1" max="100" >
-                </input>
-            <BellSimpleRinging size={32} />
-        </div>
+          <div>
+          <ReactAudioPlayer width={8} src={song} Play controls muted />
+          </div>
       </div>
     );
   }
