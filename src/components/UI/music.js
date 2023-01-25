@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import "./music.css";
-import song from "../audio/2.mp3";
+import song1 from "../audio/1.mp3";
+import song2 from "../audio/2.mp3";
+import song3 from "../audio/3.mp3";
+import song4 from "../audio/4.mp3";
+// import song5 from "../audio/5.mp3";
+// import song6 from "../audio/6.mp3";
+// import song7 from "../audio/7.mp3";
+// import song8 from "../audio/8.mp3";
 //import { Play, Pause,  SpeakerHigh, BellSimpleRinging} from "phosphor-react";
 import ReactAudioPlayer from 'react-audio-player';
 
 class App extends Component {
   state = {
-    audio: new Audio(song),
+    audio: new Audio(song1),
     isPlaying: false,
   };
     
@@ -24,14 +31,41 @@ class App extends Component {
 
   render() {
     return (
+      <div className="Mlist">
         <div className="container">
-            <h1>Kala Chasma</h1>
+            <h1 className="Title">Hamari Saanson</h1>
+            <h6>Artist: Arijit Singh</h6>
+            <h6>Album: Baar Baar Dekho</h6>
+          <h6>Released: 2016</h6> 
+          <ReactAudioPlayer src={song1} Play controls muted />
+        </div>
+          <div className="container">
+            <h1 className="Title">Kala Chasma</h1>
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6>
             <h6>Released: 2016</h6> 
           <div>
-          <ReactAudioPlayer width={8} src={song} Play controls muted />
+          <ReactAudioPlayer src={song2} Play controls muted />
           </div>
+        </div>
+          <div className="container">
+            <h1 className="Title">Mann Bharya</h1>
+            <h6>Artist: Arijit Singh</h6>
+            <h6>Album: Baar Baar Dekho</h6>
+            <h6>Released: 2016</h6> 
+          <div>
+          <ReactAudioPlayer src={song3} Play controls muted />
+          </div>
+        </div>
+          <div className="container">
+          <h1 className="Title">Ashiqui Aa Gayi</h1>
+          <h6>Artist: Arijit Singh</h6>
+          <h6>Album: Baar Baar Dekho</h6> 
+          <h6>Released: 2016</h6>
+          <div>
+          <ReactAudioPlayer src={song4} Play controls muted />
+          </div>
+        </div>
       </div>
     );
   }
