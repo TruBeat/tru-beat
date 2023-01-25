@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import './App.css';
-import SongList from './components/SongList/songList';
 import Music from './components/UI/music';
 import List from './components/SongList/songList';
 import Home from './components/Home/home';
