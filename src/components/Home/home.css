@@ -1,6 +1,6 @@
 .Home {
     flex-direction: column;
-    background-color: #d4dee9;
+    background-color: #cbcdcf;
     width: 20%;
     padding: 10px;
     margin: 7px;
@@ -27,7 +27,7 @@
 .home-content1{
     margin-top: 10%;
     padding: 1%;
-    background-color: rgb(181, 184, 171);
+    background-color: rgb(197, 199, 189);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -36,7 +36,7 @@
 .home-content2{
     margin-top: 10%;
     padding: 1%;
-    background-color: rgb(181, 184, 171);
+    background-color: rgb(197, 199, 189);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -59,16 +59,14 @@
 }
 
 .MusicStyle{
-    background-color: lightpink;
+    background-color: rgb(231, 216, 218);
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
     margin-top: 10%;
     border-radius: 10px;
-    border-color: yellow;
     border-width: 1px;
-    border-style: dashed;
     font-style: sans-serif;
     font-family: 'Courier New', Courier, monospace;
     float: inline-end;

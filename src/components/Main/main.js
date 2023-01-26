@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Player from "./Player";
 import './main.css';
 
-function Main_Screen() {
+function MainScreen() {
   const [songs] = useState([
     {
       title: "Titaliya",
@@ -79,4 +79,4 @@ function Main_Screen() {
   );
 }
 
-export default Main_Screen;
+export default MainScreen;
