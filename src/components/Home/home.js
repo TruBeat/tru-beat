@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import { House, Headphones, Users, Activity, MusicNotes, Queue, Disc, User, Playlist } from "phosphor-react";
+import { House, Headphones, Users, Activity, Queue, Disc, User, Playlist } from "phosphor-react";
 
 const home = () => {
     return (
