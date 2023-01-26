@@ -7,8 +7,7 @@ const home = () => {
         <div className="Home">
             <h1 className="app-name" > TruBeat </h1>
               <p class="w3-xxlarge w3-serif">
-            <h8 className="app-caption"> <span >&#10077;</span> Beat for everyone... <span>&#10078;</span></h8> </p>
-            <p></p>
+            <h8 className="app-caption"> <span >&#10077;</span> Beats for everyone... <span>&#10078;</span></h8> </p>
             <div className="home-content1">
                 <button className="Button"> <House size={23} /> Home </button>
                 <button className="Button"> <Headphones size={23} /> Music </button>
