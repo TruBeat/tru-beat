@@ -17,7 +17,7 @@ const home = () => {
             </div>
 
             <div className="home-content2">
-                <h1 className="MusicStyle"><MusicNotes size={23} />My Music</h1>
+                <h1 className="MusicStyle">My Music</h1>
                 <button className="Button"><Queue size={23} />My Playlists</button>
                 <button className="Button"> <Disc size={23} />My Albums</button>
                 <button className="Button"><User size={23} />My Artists</button>
