@@ -1,30 +1,32 @@
 .Home {
     flex-direction: column;
-    background-color: navajowhite;
+    background-color: #282c34;
     width: 20%;
     padding: 10px;
+    margin: 7px;
     border-radius: 10px;
     height: 750px;
 }
 
 .app-name{
-  text-shadow: 3px 3px #ff0000;
+  text-shadow: 3px 3px #454b40;
   font-size: 55px;
-  color: wheat;
+  color: rgb(44, 110, 155);
+  padding-left: 23px;
 }
 
 .app-caption{
-  text-shadow: 2px 2px rosybrown;
+  text-shadow: 2px 2px rgb(102, 112, 95);
   font-size: 22px;
   font-family: 'Recursive';
   font-family: cursive;     
-  color: wheat;  
+  color: rgb(38, 154, 158);  
 }
 
 .home-content1{
     margin-top: 20%;
     padding: 1%;
-    background-color: wheat;
+    background-color: rgb(181, 184, 171);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -33,14 +35,14 @@
 .home-content2{
     margin-top: 2%;
     padding: 1%;
-    background-color: wheat;
+    background-color: rgb(181, 184, 171);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
 }
 
 .Button{
-    background-color: blueviolet; /* Green */
+    background-color: rgb(111, 94, 128); /* Green */
     border: none;
     color: white;
     padding: 10px 12px;
