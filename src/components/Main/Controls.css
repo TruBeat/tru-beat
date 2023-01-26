@@ -10,10 +10,10 @@
   margin: 0 30px;
   padding: 20px;
   border-radius: 50%;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8),
+  box-shadow: 4px 4px 10px rgba(15, 1, 1, 0.8),
     -4px -4px 10px rgba(255, 255, 255, 0.4),
-    inset -4px -4px 10px rgba(0, 0, 0, 0.4),
-    inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    inset -4px -4px 10px rgba(15, 12, 12, 0.4),
+    inset 4px 4px 10px rgba(24, 17, 17, 0.4);
   border: none;
   outline: none;
   background-color: #ffce00;
@@ -23,6 +23,6 @@
 }
 
 .c-player--controls .play-btn:hover {
-  color: #ffce00;
+  color: #8a710d;
   background-color: inherit;
 }

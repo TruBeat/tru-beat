@@ -68,14 +68,12 @@ function MainScreen() {
   }, [currentSongIndex, songs.length]);
 
   return (
-    <div className="App">
-      <Player className="c-player"
+      <Player
         currentSongIndex={currentSongIndex}
         setCurrentSongIndex={setCurrentSongIndex}
         nextSongIndex={nextSongIndex}
         songs={songs}
       />
-    </div>
   );
 }
 

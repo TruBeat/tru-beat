@@ -10,7 +10,9 @@ function App() {
     <div>
         <input className="search" type="text" placeholder="  Search for song, artist etc..." />
       <Home />
-      <MainScreen/>
+      <div className="mainScreen">
+        <MainScreen  />
+        </div>
         <div className='ListHold'>
           <List />
           <Music />

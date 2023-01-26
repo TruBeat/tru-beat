@@ -1,0 +1,12 @@
+.c-player--audio {
+  margin-top: -20px;
+  margin-bottom: 5px;
+  margin-left: 26%;
+  outline-width: 10px;
+  opacity: 0.9;
+
+}
+
+.c-player > p {
+  color: rgb(199, 180, 180);
+}

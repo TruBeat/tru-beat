@@ -1,12 +1,13 @@
 .Home {
     flex-direction: column;
-    background-color: #cbcdcf;
+    background-image: linear-gradient(to bottom, rgb(214, 125, 130), indigo);
     width: 20%;
     padding: 10px;
-    margin: 7px;
     border-radius: 10px;
-    height: 750px;
-    margin-top: -3%;
+    height: 771px;
+    margin-top: -4%;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
 .app-name{
@@ -25,41 +26,39 @@
 }
 
 .home-content1{
-    margin-top: 10%;
+    margin-top: 15%;
     padding: 1%;
-    background-color: rgb(197, 199, 189);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
 }
 
 .home-content2{
-    margin-top: 10%;
+    margin-top: 15%;
     padding: 1%;
-    background-color: rgb(197, 199, 189);
     display: flex;
     flex-direction: column;
     border-radius: 5px;
 }
 
 .Button{
-    background-color: rgb(111, 94, 128); /* Green */
+    background-image: linear-gradient(to bottom, rgb(168, 97, 49), indigo); /* Green */
     border: none;
-    color: white;
     padding: 10px 12px;
     text-align: center;
     font-size: 16px;
     margin: 4px 4px 4px 4px;
     cursor: pointer;
     border-radius: 10px;
+    color: white;
 }
 
 .Button:hover {
-    background-color: #3e8e41;
+    color: black;
 }
 
 .MusicStyle{
-    background-color: rgb(231, 216, 218);
+    background-image: linear-gradient(to bottom, rgb(214, 125, 130), rgb(83, 39, 41));
     display: flex;
     flex-direction: column;
     align-items: center;

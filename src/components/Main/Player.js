@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Controls from "./Controls";
 import Details from "./Details";
+import "./Player.css";
 
 function Player(props) {
   const audioEl = useRef(null);
@@ -42,7 +43,7 @@ function Player(props) {
 
   return (
     <div className="c-player">
-      <h4>Playing now</h4>
+      <h4>Playing now...</h4>
       <Details song={props.songs[props.currentSongIndex]} />
       <Controls
         isPlaying={isPlaying}
