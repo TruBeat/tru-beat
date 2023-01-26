@@ -4,8 +4,9 @@
     width: 20%;
     padding: 10px;
     border-radius: 10px;
-    height: 771px;
-    margin-top: -4%;
+    height: 761px;
+    margin-top: -3.5%;
+    margin-left: 0.2%;
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
     inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
