@@ -12,9 +12,12 @@
 }
 
 .ListHold{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   color: white;
   width: 300px;
-  margin-top: -53%;
+  margin-top: -57.1%;
   margin-right: 10px;
   margin-left: 75%;
   padding: 10px;

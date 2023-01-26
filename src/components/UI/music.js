@@ -4,10 +4,10 @@ import song1 from "../audio/1.mp3";
 import song2 from "../audio/2.mp3";
 import song3 from "../audio/3.mp3";
 import song4 from "../audio/4.mp3";
-// import song5 from "../audio/5.mp3";
-// import song6 from "../audio/6.mp3";
-// import song7 from "../audio/7.mp3";
-// import song8 from "../audio/8.mp3";
+import song5 from "../audio/5.mp3";
+import song6 from "../audio/6.mp3";
+import song7 from "../audio/7.mp3";
+import song8 from "../audio/8.mp3";
 //import { Play, Pause,  SpeakerHigh, BellSimpleRinging} from "phosphor-react";
 import ReactAudioPlayer from 'react-audio-player';
 
@@ -32,8 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="Container">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">     
         <div className="Crousel">
           <a className="left" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -58,7 +57,7 @@ class App extends Component {
           </div>
           <div class="carousel-item">
             <div className="Container-inside">
-            <h1 className="Title">Kala Chasma</h1>
+            <h1 className="Title">Galliyan</h1>
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6>
             <h6>Released: 2016</h6> 
@@ -86,6 +85,50 @@ class App extends Component {
             <h6>Released: 2016</h6>
             <div>
             <ReactAudioPlayer src={song4} Play controls muted />
+            </div>
+          </div>
+            </div>
+        <div class="carousel-item">
+          <div className="Container-inside">
+            <h1 className="Title">Baaris</h1>
+            <h6>Artist: Arijit Singh</h6>
+            <h6>Album: Baar Baar Dekho</h6> 
+            <h6>Released: 2016</h6>
+            <div>
+            <ReactAudioPlayer src={song5} Play controls muted />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div className="Container-inside">
+            <h1 className="Title">Baris Ki Jaaye</h1>
+            <h6>Artist: Arijit Singh</h6>
+            <h6>Album: Baar Baar Dekho</h6> 
+            <h6>Released: 2016</h6>
+            <div>
+            <ReactAudioPlayer src={song6} Play controls muted />
+            </div>
+          </div>
+            </div>
+        <div class="carousel-item">
+          <div className="Container-inside">
+            <h1 className="Title">Bachpan Ka Pyar</h1>
+            <h6>Artist: Arijit Singh</h6>
+            <h6>Album: Baar Baar Dekho</h6> 
+            <h6>Released: 2016</h6>
+            <div>
+            <ReactAudioPlayer src={song7} Play controls muted />
+            </div>
+          </div>
+            </div>
+        <div class="carousel-item">
+          <div className="Container-inside">
+            <h1 className="Title">Kala Chasma</h1>
+            <h6>Artist: Arijit Singh</h6>
+            <h6>Album: Baar Baar Dekho</h6> 
+            <h6>Released: 2016</h6>
+            <div>
+            <ReactAudioPlayer src={song8} Play controls muted />
             </div>
           </div>
           </div>

@@ -11,6 +11,9 @@ const musicList = () => {
             <div className="songDisplay"> <Play size={20} /> Baris Ki Jaaye </div>
             <div className="songDisplay"> <Play size={20} /> Baaris </div>
             <div className="songDisplay"> <Play size={20} /> Humnava </div>
+            <div className="songDisplay"> <Play size={20} /> Hamaris Saanson </div>
+            <div className="songDisplay"> <Play size={20} /> Kala Chasma</div>
+            <div className="songDisplay"> <Play size={20} /> Galliyan </div>
         </div>
     );
 };
