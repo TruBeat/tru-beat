@@ -21,5 +21,14 @@
   height: 700px;
 }
 
+.search{
+  color: rgb(83, 9, 9);
+  width: 400px;
+  margin-left: 350px;
+  margin-top: 20px;
+  border-radius: 7px;
+  background-color: rgb(239, 244, 245);
+}
+
 
 

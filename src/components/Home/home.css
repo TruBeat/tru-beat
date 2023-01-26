@@ -6,6 +6,7 @@
     margin: 7px;
     border-radius: 10px;
     height: 750px;
+    margin-top: -3%;
 }
 
 .app-name{
@@ -33,7 +34,7 @@
 }
 
 .home-content2{
-    margin-top: 2%;
+    margin-top: 15%;
     padding: 1%;
     background-color: rgb(181, 184, 171);
     display: flex;

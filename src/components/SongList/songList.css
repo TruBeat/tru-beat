@@ -1,9 +1,8 @@
 .Lists{
-    background-color: wheat;
+    background-color: darkgrey;
     flex-direction: column;
     align-items: center;
     padding: 1%;
-    border-bottom: 1px solid #ccc;
     justify-content: space-between;
     padding: 2%;
     margin-top: 10px;

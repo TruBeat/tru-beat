@@ -6,7 +6,8 @@ import Home from './components/Home/home';
 
 function App() {
   return (
-      <div>
+    <div>
+        <input className="search" type="text" placeholder="  Search for song, artist etc..." />
         <Home />
         <div className='ListHold'>
           <List />
