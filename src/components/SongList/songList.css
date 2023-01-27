@@ -1,5 +1,5 @@
 .Lists{
-    background-image: linear-gradient(to bottom, violet, indigo);
+     background-image: linear-gradient(to bottom, rgb(139, 219, 115), rgb(66, 146, 59));
     flex-direction: column;
     align-items: center;
     padding: 1%;
@@ -12,12 +12,14 @@
 }
 
 .songDisplay{
-    background-image: linear-gradient(to bottom, violet, rgb(41, 15, 59));
+     background-image: linear-gradient(to bottom, rgb(139, 219, 115), rgb(66, 146, 59));
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     font-size: medium;
     color: white;
+    box-shadow: inset -6px -6px 12px rgba(43, 4, 4, 0.8),
+    inset 6px 6px 12px rgba(150, 7, 7, 0.4);
 }
 
 .songDisplay:hover{

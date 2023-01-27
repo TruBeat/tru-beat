@@ -1,5 +1,5 @@
 .Container {
-    background-color: crimson;
+    background-image: linear-gradient(to bottom, rgb(158, 219, 138), rgb(10, 32, 8));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     border-radius: 10%;
     border-width: 1px;
     color: wheat;
-    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    box-shadow: inset -6px -6px 12px rgba(27, 26, 26, 0.8),
     inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
@@ -32,6 +32,8 @@
     font-size: 8px;
     margin: 4px 2px;
     cursor: pointer;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
 .button1 {

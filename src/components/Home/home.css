@@ -1,6 +1,6 @@
 .Home {
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgb(214, 125, 130), indigo);
+    background-image: linear-gradient(to bottom, rgb(139, 219, 115), rgb(66, 146, 59));
     width: 20%;
     padding: 10px;
     border-radius: 10px;
@@ -12,18 +12,22 @@
 }
 
 .app-name{
-  text-shadow: 3px 3px #454b40;
+  text-shadow: 4px 4px  rgb(167, 99, 82);
   font-size: 55px;
-  color: rgb(44, 110, 155);
   padding-left: 23px;
+    border-radius: 10px;    
+    background-image: linear-gradient(to bottom, rgb(26, 36, 23), rgb(196, 227, 233));
+    box-shadow: inset -6px -6px 12px rgba(14, 1, 1, 0.8),
+    inset 6px 6px 12px rgba(104, 93, 93, 0.8);
+        margin: 4px 4px 4px 4px;
 }
 
 .app-caption{
-  text-shadow: 2px 2px rgb(102, 112, 95);
+  text-shadow: 2px 2px rgb(116, 139, 99);
   font-size: 22px;
   font-family: 'Recursive';
   font-family: cursive;     
-  color: rgb(38, 154, 158);  
+  color: rgb(10, 28, 29); 
 }
 
 .home-content1{
@@ -43,7 +47,7 @@
 }
 
 .Button{
-    background-image: linear-gradient(to bottom, rgb(168, 97, 49), indigo); /* Green */
+    background-image: linear-gradient(to bottom, rgb(206, 228, 199), rgb(45, 133, 23));
     border: none;
     padding: 10px 12px;
     text-align: center;
@@ -52,6 +56,8 @@
     cursor: pointer;
     border-radius: 10px;
     color: white;
+    box-shadow: inset -6px -6px 12px rgba(43, 4, 4, 0.8),
+    inset 6px 6px 12px rgba(150, 7, 7, 0.4);
 }
 
 .Button:hover {
@@ -59,7 +65,7 @@
 }
 
 .MusicStyle{
-    background-image: linear-gradient(to bottom, rgb(214, 125, 130), rgb(83, 39, 41));
+    background-image: linear-gradient(to bottom, rgb(131, 209, 161), rgb(24, 51, 33));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,4 +76,6 @@
     font-style: sans-serif;
     font-family: 'Courier New', Courier, monospace;
     float: inline-end;
+    box-shadow: inset -6px -6px 12px rgba(28, 158, 45, 0.8),
+    inset 6px 6px 12px rgba(188, 194, 188, 0.4);
 }

@@ -8,7 +8,10 @@ import MainScreen from './components/Main/main';
 function App() {
   return (
     <div>
-        <input className="search" type="text" placeholder="  Search for song, artist etc..." />
+      <input className="search" type="text" placeholder="  Search for song, artist etc..." >
+      </input>
+      <button className="searchButton">Search</button>
+
       <Home />
       <div className="mainScreen">
         <MainScreen  />
