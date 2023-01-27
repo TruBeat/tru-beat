@@ -1,19 +1,21 @@
 import React, { useState, useRef, useEffect } from "react";
+import ReactAudioPlayer from "react-audio-player";
 import Controls from "./Controls";
 import Details from "./Details";
 import "./Player.css";
 
 function Player(props) {
-  const audioEl = useRef(null);
+  const audioEl = new Audio(props.songs[props.currentSongIndex].src);
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
+    console.log(isPlaying);
     if (isPlaying) {
-      audioEl.current.play();
+      audioEl.play();
     } else {
-      audioEl.current.pause();
+      audioEl.pause();
     }
-  });
+  },[isPlaying]);
 
   const SkipSong = (forwards = true) => {
     if (forwards) {
@@ -50,12 +52,16 @@ function Player(props) {
         setIsPlaying={setIsPlaying}
         SkipSong={SkipSong}
       />
+
       <audio
         className="c-player--audio"
-        src={props.songs[props.currentSongIndex].src}
-        ref={audioEl}
+        src={audioEl}
         controls
+        onVolumeChange={e => {}}
+        Play
+        Pause
       ></audio>
+
       <p>
         Next up:{" "}
         <span>

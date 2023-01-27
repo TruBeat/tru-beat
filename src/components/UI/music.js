@@ -26,7 +26,7 @@ class App extends Component {
       this.state.audio.play();
       }
       
-    this.setState({ isPlaying: !isPlaying });
+    this.setState({ isPlaying : !isPlaying });
   };
 
   render() {
