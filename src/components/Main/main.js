@@ -9,55 +9,64 @@ import song5 from "../music/ParovStelarGeorgiaGibbs-TangoDelFuego.mp3";
 import song6 from "../music/JasonDerulo-TakeYouDancing.mp3";
 import song7 from "../music/Ashnikko-Daisy.mp3";
 import song8 from "../music/PatzGrimbard-DollySong.mp3";
+import img1 from "../images/titaliya.jpg";
+import img2 from "../images/nach-meri-rani.jpg";
+import img3 from "../images/care-ni-karda.jpg";
+import img4 from "../images/burjkalifa.jpg";
+import img5 from "../images/ParovStelarGeorgiaGibbs-TangoDelFuego.jpg";
+import img6 from "../images/JasonDerulo-TakeYouDancing.jpg";
+import img7 from "../images/Ashnikko-Daisy.jpg";
+import img8 from "../images/PatzGrimbard-DollySong.jpg";
+
 
 function MainScreen() {
   const [songs] = useState([
     {
       title: "Titaliya",
       artist: "Hardy Sandhu",
-      img_src: "../images/titaliya.jpg",
+      img_src: img1,
       src: song1,
     },
     {
       title: "Nach Meri Rani",
       artist: "Yo Yo Honey Singh",
-      img_src: "../images/nach-meri-rani.jpg",
+      img_src: img2,
       src: song2,
     },
     {
       title: "Care Ni Karda",
       artist: "Yo Yo Honey Singh",
-      img_src: "../images/care-ni-karda.jpg",
+      img_src: img3,
       src: song3,
     },
     {
       title: "Burj Khalifa",
       artist: "Shashi",
-      img_src: "../images/burjkalifa.jpg",
+      img_src: img4,
       src: song4,
     },
     {
       title: "Tango Del Fuego",
       artist: "Parov Stelar",
-      img_src: "../images/ParovStelarGeorgiaGibbs-TangoDelFuego.jpg",
+      img_src: img5,
       src: song5,
     },
     {
       title: "Take You Dancing",
       artist: "Jason Derulo",
-      img_src: "../images/JasonDerulo-TakeYouDancing.jpg",
+      img_src: img6,
       src: song6,
     },
     {
       title: "Daisy",
       artist: "Ashnikko",
-      img_src: "../images/Ashnikko-Daisy.jpg",
+      img_src: img7,
       src: song7,
     },
     {
       title: "Dolly Song",
       artist: "Partz Grimbad",
-      img_src: "../images/PatzGrimbard-DollySong.jpg",
+      img_src: img8,
       src: song8,
     },
   ]);

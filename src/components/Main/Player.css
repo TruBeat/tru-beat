@@ -7,6 +7,38 @@
 
 }
 
+.c-player{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .c-player > p {
   color: rgb(199, 180, 180);
+}
+
+.NextColor1{
+  color: rgb(232, 245, 248);
+  font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NextColor2{
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-song{
+  width: fit-content;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8),
+    -6px -6px 12px rgba(95, 29, 29, 0.4);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

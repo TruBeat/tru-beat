@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
-import ReactAudioPlayer from "react-audio-player";
+import React, { useState, useEffect } from "react";
 import Controls from "./Controls";
 import Details from "./Details";
 import "./Player.css";
@@ -57,14 +56,14 @@ function Player(props) {
         className="c-player--audio"
         src={audioEl}
         controls
-        onVolumeChange={e => {}}
         Play
         Pause
-      ></audio>
+      />
 
-      <p>
-        Next up:{" "}
-        <span>
+      
+      <p className="next-song">
+        <h6 className="NextColor1">Next up:</h6>
+          <span className="NextColor2">
           {props.songs[props.nextSongIndex].title} by{" "}
           {props.songs[props.nextSongIndex].artist}
         </span>
