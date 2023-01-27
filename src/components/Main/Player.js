@@ -8,13 +8,10 @@ function Player(props) {
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    console.log("useEffect: " + isPlaying);
     if (isPlaying) {
-      audioEl.current.play();
-      console.log("started playing");      
+      audioEl.current.play();  
     } else {
       audioEl.current.pause();
-      console.log("paused");
     }
   }, [isPlaying]);
 

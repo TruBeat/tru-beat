@@ -63,7 +63,7 @@ class App extends Component {
               <h6>Artist: Arijit Singh</h6>
               <h6>Album: Baar Baar Dekho</h6>
               <h6>Released: 2016</h6> 
-              <ReactAudioPlayer src={song1} Play controls muted />
+              <ReactAudioPlayer src={song1} Play controls unmuted />
             </div>
           </div>
           <div class="carousel-item">
@@ -73,7 +73,7 @@ class App extends Component {
             <h6>Album: Baar Baar Dekho</h6>
             <h6>Released: 2016</h6> 
           <div>
-          <ReactAudioPlayer src={song2} Play controls muted />
+          <ReactAudioPlayer src={song2} Play controls unmuted />
           </div>
         </div>
           </div>
@@ -84,7 +84,7 @@ class App extends Component {
               <h6>Album: Baar Baar Dekho</h6>
               <h6>Released: 2016</h6> 
               <div>
-              <ReactAudioPlayer src={song3} Play controls muted />
+              <ReactAudioPlayer src={song3} Play controls unmuted />
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ class App extends Component {
             <h6>Album: Baar Baar Dekho</h6> 
             <h6>Released: 2016</h6>
             <div>
-            <ReactAudioPlayer src={song4} Play controls muted />
+            <ReactAudioPlayer src={song4} Play controls unmuted />
             </div>
           </div>
             </div>
@@ -106,7 +106,7 @@ class App extends Component {
             <h6>Album: Baar Baar Dekho</h6> 
             <h6>Released: 2016</h6>
             <div>
-            <ReactAudioPlayer src={song5} Play controls muted />
+            <ReactAudioPlayer src={song5} Play controls unmuted />
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ class App extends Component {
             <h6>Album: Baar Baar Dekho</h6> 
             <h6>Released: 2016</h6>
             <div>
-            <ReactAudioPlayer src={song6} Play controls muted />
+            <ReactAudioPlayer src={song6} Play controls unmuted />
             </div>
           </div>
             </div>
@@ -128,7 +128,7 @@ class App extends Component {
             <h6>Album: Baar Baar Dekho</h6> 
             <h6>Released: 2016</h6>
             <div>
-            <ReactAudioPlayer src={song7} Play controls muted />
+            <ReactAudioPlayer src={song7} Play controls unmuted />
             </div>
           </div>
             </div>
@@ -139,7 +139,7 @@ class App extends Component {
             <h6>Album: Baar Baar Dekho</h6> 
             <h6>Released: 2016</h6>
             <div>
-            <ReactAudioPlayer src={song8} Play controls muted />
+            <ReactAudioPlayer src={song8} Play controls unmuted />
             </div>
           </div>
           </div>
