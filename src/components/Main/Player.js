@@ -1,17 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Controls from "./Controls";
 import Details from "./Details";
 import "./Player.css";
 
 function Player(props) {
-  const audioEl = new Audio(props.songs[props.currentSongIndex].src);
+  const audioEl = useRef(new Audio(props.songs[props.currentSongIndex].src));
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
+    console.log("useEffect: " + isPlaying);
     if (isPlaying) {
-      audioEl.play();
+      audioEl.current.play();
+      console.log("started playing");      
     } else {
-      audioEl.pause();
+      audioEl.current.pause();
+      console.log("paused");
     }
   }, [isPlaying]);
 
@@ -39,20 +42,13 @@ function Player(props) {
 
 return (
   <div className="c-player">
-    {isPlaying ? <h4>Playing now...</h4> : <h4>Paused</h4> }
+    {isPlaying ? <h4>Playing now...</h4> : <h4>Paused</h4>}
+
     <Details song={props.songs[props.currentSongIndex]} />
     <Controls
       isPlaying={isPlaying}
       setIsPlaying={setIsPlaying}
       SkipSong={SkipSong}
-    />
-
-    <audio
-      className="c-player--audio"
-      src={audioEl}
-      controls
-      Play
-      Pause
     />
 
     <p className="next-song">
