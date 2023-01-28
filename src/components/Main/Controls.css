@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  margin-left: 215px;
-  width: 200px;
+  margin-left: 120px;
+  width: 400px;
     box-shadow: 4px 4px 10px rgb(2, 0, 0),
     -4px -4px 10px rgba(17, 1, 1, 0.4),
     inset -4px -4px 10px rgba(15, 12, 12, 0.4),
@@ -40,4 +40,15 @@
   cursor: pointer;
   color: #888;
   font-size: 18px;
+}
+
+.slider-control{
+  width: 300px;       
+  margin-left: 173px;
+}
+
+.Speaker{
+  margin-left: 120px;
+  margin-bottom: -40px;
+  color: #8a710d;
 }

@@ -14,7 +14,7 @@ function Player(props) {
       audioEl.pause();
     }
   }, [isPlaying, audioEl]);
-
+  
   const SkipSong = (forwards = true) => {
     if (forwards) {
       props.setCurrentSongIndex(() => {
@@ -41,7 +41,9 @@ function Player(props) {
         audioEl.play();
         return temp;
     });
-  }
+    }
+    
+
 };
 
 return (
@@ -53,6 +55,7 @@ return (
       isPlaying={isPlaying}
       setIsPlaying={setIsPlaying}
       SkipSong={SkipSong}
+      audioRef={audioEl}
     />
 
     <p className="next-song">
