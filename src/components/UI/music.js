@@ -68,7 +68,7 @@ class App extends Component {
           </div>
           <div class="carousel-item">
             <div className="Container-inside">
-            <h1 className="Title">Galliyan</h1>
+            <h1 className="Title">Kala Chasma</h1>    
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6>
             <h6>Released: 2016</h6> 
@@ -134,7 +134,7 @@ class App extends Component {
             </div>
         <div class="carousel-item">
           <div className="Container-inside">
-            <h1 className="Title">Kala Chasma</h1>
+            <h1 className="Title">Galliyan</h1>
             <h6>Artist: Arijit Singh</h6>
             <h6>Album: Baar Baar Dekho</h6> 
             <h6>Released: 2016</h6>

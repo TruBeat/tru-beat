@@ -4,14 +4,14 @@ import Details from "./Details";
 import "./Player.css";
 
 function Player(props) {
-  const audioEl = useRef(new Audio(props.songs[props.currentSongIndex].src));
+  const [audioEl] = useState(new Audio(props.songs[props.currentSongIndex].src));
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     if (isPlaying) {
-      audioEl.current.play();  
+      audioEl.play();  
     } else {
-      audioEl.current.pause();
+      audioEl.pause();
     }
   }, [isPlaying]);
 
@@ -23,6 +23,9 @@ function Player(props) {
         if (temp > props.songs.length - 1) {
           temp = 0;
         }
+        // update song details
+        audioEl.src = props.songs[temp].src;
+        audioEl.play();
         return temp;
       });
     } else {
@@ -32,6 +35,10 @@ function Player(props) {
         if (temp < 0) {
           temp = props.songs.length - 1;
         }
+
+        //update song details
+        audioEl.src = props.songs[temp].src;
+        audioEl.play();
         return temp;
     });
   }
