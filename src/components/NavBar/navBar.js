@@ -69,13 +69,13 @@ function DrawerAppBar(props) {
           >
             TruBeat
           </Typography>
-            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-           {<button type='text'><MagnifyingGlass size={40} /></button>}
+            <Box sx={{ display: { xs: 'none', sm: 'block'}}}>
+           {<button style={{ backgroundColor:'transparent', border:'none' }}><MagnifyingGlass size={20} /></button>}
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff' }}>
                 {item}
               </Button>
-            ))}{<button> <AccountCircleIcon/> </button>}
+            ))}{<button style={{ backgroundColor:'transparent', border:'none' }}> <AccountCircleIcon/> </button>}
           </Box>
         </Toolbar>
       </AppBar>
