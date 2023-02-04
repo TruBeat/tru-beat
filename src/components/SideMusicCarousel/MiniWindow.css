@@ -1,0 +1,121 @@
+.Container {
+    background-image: linear-gradient(to bottom, rgb(158, 219, 138), rgb(10, 32, 8));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    box-shadow: inset -6px -6px 12px rgba(27, 26, 26, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.Container-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px;
+    padding: 12%;
+}
+
+.Button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #0f2710;
+  color: white;
+}
+
+.Status {
+    background-color: goldenrod; /* Green */
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 10px 1px;
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: double;
+}
+
+.slidecontainer {
+  width: 100%;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.player_control{
+  background-color: #4CAF50;
+}
+
+.Mlist{
+  background-color: red;
+  padding: 50%  50%;
+}
+
+.Title{
+  font-size: large;
+}
+
+.left{
+  justify-content: left;
+  align-items: left;
+  margin-right: 85%;
+}
+
+.right{
+  justify-content: right;
+  align-items: right;
+}
+
+.Crousel{
+  padding: 15px;
+}
+
+
+

@@ -1,0 +1,48 @@
+.ListHold{
+  background-color: rgb(49, 49, 202);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+      box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+
+
+.Main {
+  background-color: #282c34;
+  color: white;
+  width: 250px;
+  margin-top: -30%;
+  margin-right: 10px;
+  margin-left: 75%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  border-radius: 10px;
+  height: 700px;
+}
+
+.mainScreen{
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+  background-color: rgb(224, 19, 19);
+  margin-top: 4%;
+}
+
+
+
+.ListAndMusicScreen{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  background-color: rgb(224, 19, 19);
+  width: 25%;
+}
+
+
+
