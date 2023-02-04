@@ -7,20 +7,14 @@ import MainScreen from './components/Main/main';
 
 function App() {
   return (
-    <div>
-      <input className="search" type="text" placeholder="  Search for song, artist etc..." >
-      </input>
-      <button className="searchButton">Search</button>
-
+    <div className="mainScreen">
       <Home />
-      <div className="mainScreen">
-        <MainScreen  />
-        </div>
-        <div className='ListHold'>
-          <List />
-          <Music />
-        </div>
+      <MainScreen/>
+      <div className='ListAndMusicScreen'>
+        <List/>
+        <Music/>
       </div>
+    </div>
   );
 }
 

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Player from "./Player";
-import './main.css';
 import song1 from "../music/Titliaan Warga.mp3";
 import song2 from "../music/Naach Meri Rani.mp3";
 import song3 from "../music/Care Ni Karda.mp3";
@@ -17,7 +16,6 @@ import img5 from "../images/ParovStelarGeorgiaGibbs-TangoDelFuego.jpg";
 import img6 from "../images/JasonDerulo-TakeYouDancing.jpg";
 import img7 from "../images/Ashnikko-Daisy.jpg";
 import img8 from "../images/PatzGrimbard-DollySong.jpg";
-
 
 function MainScreen() {
   const [songs] = useState([

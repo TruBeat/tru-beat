@@ -11,25 +11,8 @@ import song8 from "../audio/8.mp3";
 //import { Play, Pause,  SpeakerHigh, BellSimpleRinging} from "phosphor-react";
 import ReactAudioPlayer from 'react-audio-player';
 
-class App extends Component {
-  state = {
-    audio: new Audio(song1),
-    isPlaying: false,
-  };
-    
-  playPause = () => {
-    let isPlaying = this.state.isPlaying;
-
-    if (isPlaying) {
-      this.state.audio.pause();
-    } else {
-      this.state.audio.play();
-      }
-      
-    this.setState({ isPlaying : !isPlaying });
-  };
-
-  render() {
+function App() {
+  
     return (
       <div className="Container">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">     
@@ -63,7 +46,7 @@ class App extends Component {
               <h6>Artist: Arijit Singh</h6>
               <h6>Album: Baar Baar Dekho</h6>
               <h6>Released: 2016</h6> 
-              <ReactAudioPlayer src={song1} Play controls unmuted />
+              <ReactAudioPlayer style={{backgroundColor:'red', color : 'green'}} src={song1} Play controls unmuted />
             </div>
           </div>
           <div class="carousel-item">
@@ -147,8 +130,6 @@ class App extends Component {
 
       </div>
       </div>
-    );
-  }
-}
+    );}
 
 export default App;

@@ -7,7 +7,7 @@
 .c-player--details .details-img img {
   display: block;
   margin: 50px auto;
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   max-width: 250px;
   border-radius: 50%;
@@ -24,7 +24,7 @@
   right: -25px;
   bottom: -25px;
   border-radius: 50%;
-  border: 3px dashed rgba(255, 206, 0, 1);
+  border: dashed;
 }
 
 .c-player--details .details-title {
