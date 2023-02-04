@@ -37,19 +37,6 @@
   color: rgb(255, 255, 255);
 }
 
-.volumeMuteUnmute {
-  background : transparent;
-  border:none;
-  color: white;
-}
-
-.Volume {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
 .search{
   border: none;
   border-radius: 10px;

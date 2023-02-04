@@ -7,6 +7,9 @@
     -4px -4px 10px rgba(17, 1, 1, 0.4),
     inset -4px -4px 10px rgba(15, 12, 12, 0.4),
     inset 4px 4px 10px rgba(139, 107, 2, 0.4);
+    background-color: #5c4b09;
+    border-radius: 10px;
+
 }
 
 .c-player--controls .play-btn {
@@ -24,6 +27,7 @@
   color: #fff;
   font-size: 24px;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .c-player--controls .play-btn:hover {
@@ -40,6 +44,19 @@
   font-size: 18px;
 }
 
+.volumeMuteUnmute {
+  background : transparent;
+  border:none;
+  color: rgb(90, 27, 27);
+}
+
+.Volume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .slider-control{
   width: 300px;       
   margin-left: 173px;
@@ -49,4 +66,17 @@
   margin-left: 120px;
   margin-bottom: -40px;
   color: #8a710d;
+}
+
+.position-style{
+  position: fixed;
+  bottom: 0;
+  width: 101vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  z-index: 1001;
 }
