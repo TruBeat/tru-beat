@@ -1,0 +1,74 @@
+.Login-window-message{
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px red;   
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+}
+
+.Logo{
+    width: 60vw;
+    height: 100vh;
+    background-image: url("../images/TruBeat.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.LoginPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.User-Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 100vh;
+    background-color: rgb(235, 230, 235);
+}
+
+.login-window__form{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: ;
+}
+
+.title{
+    margin: 10px;
+    margin-left: 16%;
+}
+
+.sign_up{
+    border: none;
+    outline: none;
+    background-color: rgb(235, 230, 235);
+}
+
+.sign_in{
+    border: none;
+    outline: none;
+    background-color: rgb(62, 84, 211);
+}
+
+.sign_in:hover{
+    background-color: rgb(13, 165, 64);
+}
+
+.forget-password{
+    border: none;
+    outline: none;
+    background-color: rgb(235, 230, 235);
+}

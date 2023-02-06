@@ -1,31 +1,62 @@
 // import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+// import { Auth } from 'aws-amplify';
 import './App.css';
+import DrawerAppBar from './components/NavBar/navBar';
 import Music from './components/SideMusicCarousel/MiniWindow';
 import List from './components/MusicCollection/songList';
 import Home from './components/Home/home';
 import MainScreen from './components/Main/main';
-import DrawerAppBar from './components/NavBar/navBar';
-import TitleBar from './components/Main/titleBar';
+import LoginWindow from './components/LoginWindow';
 
 function App() {
+  const [authenticated, setAuthenticated] = useState(false);
+  // const [user, setUser] = useState(null);
+
+  // useEffect(() => {
+  //   (async () => {
+  //     // const user = await Auth.currentAuthenticatedUser();
+  //     // setUser(user);
+  //     setAuthenticated(true);
+  //   })();
+  // }, []);
+
+  // useEffect(() => {
+  // if (!authenticated) {
+  //   return <LoginWindow />;
+  //   }
+  // }, [authenticated]);
+
   return (
     <div>
       <DrawerAppBar />
-      <div className='songStatusBar'>
+      {
+        authenticated ?  <div className='songStatusBar'>
         <div className="mainScreen">
           <Home/>
           <MainScreen/>
           <div className='ListAndMusicScreen'>
             <List/>
-            <Music/>
+            <Music />
           </div>
         </div>
         <div className='TitleBar'>
-          
         </div>
-        </div>
+        </div> :
+          <LoginWindow setAuthenticated={setAuthenticated} />
+      }
     </div>
   );
 }
 
 export default App;
+
+// function App() {
+//   return (
+//     <div>
+//       <LoginWindow />
+//     </div>
+//   );
+// }
+
+// export default App;

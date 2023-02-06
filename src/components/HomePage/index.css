@@ -1,0 +1,60 @@
+.Home-Page{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    border: 1px solid #7e412e;
+}
+
+.container{
+    background-color: antiquewhite;
+}
+
+.container1{
+    background-image: url("../images/TruBeat.png");
+    grid-column-start: 1;
+    grid-column-end: 6;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container2{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    background-color: #c0a7a0;
+}
+
+.navBar{
+    background-color: rgb(66, 30, 165);
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.navButton{
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.navButton:hover{
+    background-color: rgb(76, 206, 115);
+}
+
+.Title{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: 47%;
+    margin-top: 0.5%;
+}
