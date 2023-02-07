@@ -11,6 +11,12 @@ import LoginWindow from './components/LoginWindow';
 
 function App() {
   const [authenticated, setAuthenticated] = useState(false);
+
+  useEffect(() => {
+    setAuthenticated(JSON.parse(localStorage.getItem('is_authenticated')));
+    setAuthenticated(false);
+  }, []);
+
   // const [user, setUser] = useState(null);
 
   // useEffect(() => {
@@ -29,7 +35,7 @@ function App() {
 
   return (
     <div>
-      <DrawerAppBar />
+      <DrawerAppBar authenticated={authenticated}  setAuthenticated={setAuthenticated}/>
       {
         authenticated ?  <div className='songStatusBar'>
         <div className="mainScreen">

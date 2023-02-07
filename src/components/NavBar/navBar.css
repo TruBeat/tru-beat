@@ -36,6 +36,7 @@
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap;
+    z-index: 1001;
 }
 
 .navButton{
