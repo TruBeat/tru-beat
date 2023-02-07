@@ -49,7 +49,6 @@ function Player(props) {
   
   return (
   <div className="c-player">
-    {isPlaying ? <h4>Playing now...</h4> : <h4>Paused</h4>}
     <Details song={props.songs[props.currentSongIndex]} />
     <Controls  
       isPlaying={isPlaying}

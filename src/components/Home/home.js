@@ -5,19 +5,15 @@ import { House, Headphones, Users, Activity, Queue, Disc, User, Playlist } from 
 const home = () => {
     return (
         <div className="Home">
-            <div className="home-content1">
-                <button className="Button"> <House size={23} /> Home </button>
-                <button className="Button"> <Headphones size={23} /> Music </button>
-                <button className="Button"> <Users size={23} /> Artist </button>
-                <button className="Button"> <Activity size={23} /> About </button>
-            </div>
-
-            <div className="home-content2">
-                <h1 className="MusicStyle">My Music</h1>
-                <button className="Button"><Queue size={23} />My Playlists</button>
-                <button className="Button"> <Disc size={23} />My Albums</button>
-                <button className="Button"><User size={23} />My Artists</button>
-                <button className="Button"><Playlist size={23} />Recently Played</button>
+            <div className="home-content">
+                <button className="HButton"> <House size={23} /> Home </button>
+                <button className="HButton"> <Headphones size={23} /> Music </button>
+                <button className="HButton"> <Users size={23} /> Artist </button>
+                <button className="HButton"> <Activity size={23} /> About </button>
+                <button className="HButton"><Queue size={23} />My Playlists</button>
+                <button className="HButton"> <Disc size={23} />My Albums</button>
+                <button className="HButton"><User size={23} />My Artists</button>
+                <button className="HButton"><Playlist size={23} />Recently Played</button>
             </div>
         </div>
     );

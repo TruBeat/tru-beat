@@ -1,66 +1,36 @@
 .Home {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 23%;
-    background-image: linear-gradient(to bottom, rgb(139, 219, 115), rgb(66, 146, 59));
-    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
-    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    box-shadow: inset -6px -6px 12px rgba(24, 18, 1, 0.8);
 }
 
-.app-name{
-  text-shadow: 4px 4px  rgb(167, 99, 82);
-  font-size: 55px;
-  padding-left: 23px;
-    border-radius: 10px;    
-    background-image: linear-gradient(to bottom, rgb(26, 36, 23), rgb(196, 227, 233));
-    box-shadow: inset -6px -6px 12px rgba(14, 1, 1, 0.8),
-    inset 6px 6px 12px rgba(104, 93, 93, 0.8);
-        margin: 4px 4px 4px 4px;
-}
-
-.app-caption{
-  text-shadow: 2px 2px rgb(116, 139, 99);
-  font-size: 22px;
-  font-family: 'Recursive';
-  font-family: cursive;     
-  color: rgb(10, 28, 29); 
-}
-
-.home-content1{
-    margin-top: 15%;
-    padding: 1%;
+.home-content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
 }
 
-.home-content2{
-    margin-top: 15%;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-}
-
-.Button{
-    background-image: linear-gradient(to bottom, rgb(206, 228, 199), rgb(45, 133, 23));
+.HButton{
+    width: 60%;
     border: none;
-    padding: 10px 12px;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
-    margin: 4px 4px 4px 4px;
-    cursor: pointer;
-    border-radius: 10px;
-    color: white;
-    box-shadow: inset -6px -6px 12px rgba(43, 4, 4, 0.8),
-    inset 6px 6px 12px rgba(150, 7, 7, 0.4);
+    padding: 10px;
+    background-color: #1d0404;
+    color: bisque;
 }
 
-.Button:hover {
-    color: black;
+.HButton:hover {
+    color: rgb(126, 201, 7);
 }
 
 .MusicStyle{
-    background-image: linear-gradient(to bottom, rgb(131, 209, 161), rgb(24, 51, 33));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,6 +38,4 @@
     font-style: sans-serif;
     font-family: 'Courier New', Courier, monospace;
     float: inline-end;
-    box-shadow: inset -6px -6px 12px rgba(28, 158, 45, 0.8),
-    inset 6px 6px 12px rgba(188, 194, 188, 0.4);
 }

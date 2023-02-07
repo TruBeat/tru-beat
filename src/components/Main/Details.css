@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+.c-player--details{
+  height: 100%;
+  width: 100%;
+  margin-top: -2%;
+}
+
 .c-player--details .details-img img {
   display: block;
   margin: 50px auto;
